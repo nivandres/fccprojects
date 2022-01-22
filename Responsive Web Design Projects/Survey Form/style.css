@@ -1,0 +1,198 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    
+
+
+    border:none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #845ef7;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    padding-right: 5em;
+}
+
+#title {
+    color: #845ef7;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+button:hover{
+    box-shadow: inset 0 -100px 0 0 #845ef7;
+    border-color: #845ef7;
+    color: white;
+}
+
+body {
+    background-color: #845ef7;
+}
+
+.div1 {
+    background-color: white;
+    margin: 5%;
+    border-radius: 1em;
+    font-weight: bolder;
+
+}
+
+.na {
+    background-color: #845ef7;
+    height: 2em;
+}
+
+.description {
+    margin: 2em;
+    text-align: center;
+}
+
+.cont {
+    border:1px solid #845ef7;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: white;
+    border-radius: 32px;
+    box-shadow: inset 0 0 0 0 #845ef7;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+#description {
+
+    font-size: 0.99rem;
+    padding: 3em;
+    color: #845ef7;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: inset 0 0 0 0 #845ef7;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+#description:hover {
+    color: white;
+}
+
+.cont:hover {
+    box-shadow: inset 0 0 0 150px #845ef7;
+    border-color: #845ef7;
+}
+.form {
+    margin-right: 12%;
+    margin-left: 12%;
+    padding: 7%;
+    padding-top: 3%;
+    border:1px solid #845ef7;
+    padding-bottom: 2%;
+}
+.survey-form {
+    text-align: center;
+}
+
+#name-label {
+    text-align: center;   
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #845ef7;
+}
+
+input:focus{
+    border: 1px solid #845ef7;
+    outline-color: #845ef7;
+}
+
+input:hover{
+    color: #845ef7;
+}
+
+#dropdown {
+    margin-top: 1.5%;
+    border: 2px solid #845ef7;
+}
+#dropdown:focus {
+    outline: none;
+}
+#dropdown:hover{
+    color: #845ef7;
+}
+
+option {
+    color: #845ef7;
+    background-color: white;
+}
+option:hover{
+    color: black;
+    background-color: #845ef7;
+    
+}
+
+.radio-class {
+    margin-top: 10px;
+}
+
+input[type=radio] {
+    color: #845ef7;
+}
+
+textarea {
+    border: 2px solid #845ef7;
+    border-radius: 3px;
+    width: 70%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 6em;
+}
+textarea:focus {
+    background-color: #845ef7;
+    outline-color: white;
+    color: white;
+    color
+}
+textarea:focus::placeholder {
+    color: white;
+}
+
+button:focus {
+    outline-color: #845ef7;
+    box-shadow: inherit;
+    outline: solid #845ef7;
+}
+.botbord {
+
+    padding: 2.5%;
+
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    outline: 100% solid black;
+}
+footer h1{
+    color: white;
+    font-size: 26px;
+    margin-left: 3em;
+}
+html {
+    background-color: black;
+}
+.div0 {
+    padding: 0.1px;
+}
+a {
+   color: white; 
+
+}
+a:hover {
+    color: #845ef7;
+}
+
+h2 {
+   font-size: 16px;
+   margin-left: 5em;
+}
