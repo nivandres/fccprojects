@@ -1,591 +1,583 @@
-
 .top-bar1 {
-    background-color: red;
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    box-shadow: 0px 1.25px 5px 10px red;
-    top: 0;
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 1.25px 5px 10px red;
+  top: 0;
 
-    z-index: 5;
-
+  z-index: 5;
 }
 .top-bar2 {
-    background-color: blue;
-    height: 75px;
+  background-color: blue;
+  height: 75px;
 }
 .top-bar3 {
-    background-color: yellow;
-    height: 70px;
+  background-color: yellow;
+  height: 70px;
 }
 .top-bar4 {
-    background-color: white;
-    height: 60px;
-    font-family: 'EB Garamond', serif;;
-    font-size: 32px;
-    margin: auto;
+  background-color: white;
+  height: 60px;
+  font-family: "EB Garamond", serif;
+  font-size: 32px;
+  margin: auto;
 }
 .top-bar {
-    padding-top: 7px;
-    padding-left: 60px;
+  padding-top: 7px;
+  padding-left: 60px;
 }
 .body- {
-    position: absolute;
-    width: 100%;
-    background-image: url('https://cdn.cafecito.app/images_profile/20e561f0-b44c-11eb-845a-cf9484ffa192.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  position: absolute;
+  width: 100%;
+  background-image: url("https://cdn.cafecito.app/images_profile/20e561f0-b44c-11eb-845a-cf9484ffa192.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .form-box {
-    border: none;
-    background-color: white;
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 120px;
-    border-radius: 40px;
-    overflow: hidden;
+  border: none;
+  background-color: white;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 40px;
+  overflow: hidden;
 }
 .yellow-bar {
-    background-color: yellow;
-    height: 50px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    box-shadow: 0 3px 3px 0px yellow;
+  background-color: yellow;
+  height: 50px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 3px 3px 0px yellow;
 }
 #title {
-    text-align: center;
-    margin: auto;
-    margin-top: 24px;
-    font-family: 'Secular One', sans-serif;
-    font-size: 52px;
-    margin-bottom: 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 24px;
+  font-family: "Secular One", sans-serif;
+  font-size: 52px;
+  margin-bottom: 0;
 }
 .subtitle {
-    text-align: center;
-    margin-top: 0;
-    font-family: 'Secular One', sans-serif;
-    font-size: 32;
+  text-align: center;
+  margin-top: 0;
+  font-family: "Secular One", sans-serif;
+  font-size: 32;
 }
 #description {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 100;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 .blue-bar {
-    height: 8px;
-    background-color: blue;
+  height: 8px;
+  background-color: blue;
 }
 .red-bar {
-    height: 8px;
-    background-color: red;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+  height: 8px;
+  background-color: red;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 .second-box {
-    border: 3px solid rgb(192, 192, 192);
-    border-radius: 40px;
-    max-width: 1100px;
-    margin: auto;
-    overflow: hidden;
+  border: 3px solid rgb(192, 192, 192);
+  border-radius: 40px;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
 }
 .form-description {
-    margin: 15px
-    ;text-align: center;
+  margin: 15px;
+  text-align: center;
 }
 .form-section {
-    border: 3px solid rgb(192, 192, 192);
-    border-radius: 40px;
-    max-width: 850px;
-    overflow: hidden;
-    margin:auto;
+  border: 3px solid rgb(192, 192, 192);
+  border-radius: 40px;
+  max-width: 850px;
+  overflow: hidden;
+  margin: auto;
 }
 .dp {
-    font-size: 14px;
-    margin: 10px
-    ;margin-left: 30px;
-    margin-bottom: 0px;
+  font-size: 14px;
+  margin: 10px;
+  margin-left: 30px;
+  margin-bottom: 0px;
 }
 #name-label {
-    text-align: center;
+  text-align: center;
 }
 .name {
-    float: left;
-    text-align: center;
+  float: left;
+  text-align: center;
 }
 .email {
-    text-align: center;
-    float: left;
+  text-align: center;
+  float: left;
 }
 .number {
-    text-align: center;
-    float: left;
+  text-align: center;
+  float: left;
 }
 .personal-info-inputs {
-    text-align: center;
-    border: 3px solid white;
-    overflow: hidden;
-    padding-left: 50px;
-    padding-bottom: 15px;
+  text-align: center;
+  border: 3px solid white;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-bottom: 15px;
 }
 #name {
-    width: 300px;
-    text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    border:none;
-    border-bottom: 1px solid #707070;
-    transition-duration: 0.8s;
-    background-color: transparent;
-    outline-color: yellow;
+  width: 300px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 1px solid #707070;
+  transition-duration: 0.8s;
+  background-color: transparent;
+  outline-color: yellow;
 }
 #name:hover {
-    border:none;
-    background-color: transparent;
-    transform: scale(1.2);
-    outline-color: yellow;
-    border-bottom: 1px solid #fff;
+  border: none;
+  background-color: transparent;
+  transform: scale(1.2);
+  outline-color: yellow;
+  border-bottom: 1px solid #fff;
 }
 #name:focus {
-    transform: scale(1);
-    border: none;
-    outline-color: yellow;
+  transform: scale(1);
+  border: none;
+  outline-color: yellow;
 }
 #email {
-    width: 200px;
-    text-align: center;
-    border:none;
-    border-bottom: 1px solid #707070;
-    transition-duration: 0.8s;
-    background-color: transparent;
-    outline-color: blue;
+  width: 200px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #707070;
+  transition-duration: 0.8s;
+  background-color: transparent;
+  outline-color: blue;
 }
 #email:hover {
-    border-bottom: 1px solid #fff;
-    background-color: transparent;
-    transform: scale(1.2);
-    outline-color: blue;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  transform: scale(1.2);
+  outline-color: blue;
 }
 #email:focus {
-    transform: scale(1);
-    outline-color: blue;
+  transform: scale(1);
+  outline-color: blue;
 }
 #number {
-    width: 80px;
-    margin: 0;
-    text-align: center;
-    border:none;
-    border-bottom: 1px solid #707070;
-    transition-duration: 0.8s;
-    background-color: transparent;
-    outline-color: red;
+  width: 80px;
+  margin: 0;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #707070;
+  transition-duration: 0.8s;
+  background-color: transparent;
+  outline-color: red;
 }
 #number:hover {
-    border-bottom: 1px solid #fff;
-    background-color: transparent;
-    transform: scale(1.2);
-    outline-color: red;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  transform: scale(1.2);
+  outline-color: red;
 }
 #number:focus {
-    transform: scale(1);
-    outline-color: red;
+  transform: scale(1);
+  outline-color: red;
 }
 #number-label {
-    padding-left: 25px;
+  padding-left: 25px;
 }
 .margin-top {
-    margin-top: 20px;
-    max-width: 940px;
+  margin-top: 20px;
+  max-width: 940px;
 }
 .candidato-image {
-    filter: grayscale(100%);
-    transition-duration: 0.9s;
-    width: 150px;
-    height: 300px;
-    object-fit: cover
-    ;border: 2px solid white;
+  filter: grayscale(100%);
+  transition-duration: 0.9s;
+  width: 150px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid white;
 }
 .candidato-image:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-    transition-duration: 0.9s;
+  filter: grayscale(0%);
+  transform: scale(1.01);
+  transition-duration: 0.9s;
 }
 label h3 {
-    font-size: 16px;
-    transition: 0.3s;
+  font-size: 16px;
+  transition: 0.3s;
 }
 .candidato-option {
-    float: left;
+  float: left;
 }
 .candidato-option input {
-    visibility: hidden;
-    position: absolute;
+  visibility: hidden;
+  position: absolute;
 }
 .candidato-input:checked + label {
-    filter: none;
-    letter-spacing: 1px;
-    transform: scale(1.15);
-    cursor: default;
-    transition-duration: 0.3s;
-    .candidato-image {
-        opacity: 100 !important;
-        filter: grayscale(0%);
-        transition-duration: 0.5s;
-        z-index: 4;
-        border: 2px solid rgb(133, 133, 133);
-    }
-    .candidato-image:hover {
-        transform: scale(1);
-        transition-duration: 0.5s;
-        z-index: 4;
-        
-    }
-    h3 {
+  filter: none;
+  letter-spacing: 1px;
+  transform: scale(1.15);
+  cursor: default;
+  transition-duration: 0.3s;
+  .candidato-image {
+    opacity: 100 !important;
+    filter: grayscale(0%);
+    transition-duration: 0.5s;
+    z-index: 4;
+    border: 2px solid rgb(133, 133, 133);
+  }
+  .candidato-image:hover {
+    transform: scale(1);
+    transition-duration: 0.5s;
+    z-index: 4;
+  }
+  h3 {
     letter-spacing: 3px;
-    }
-    .peq{
-        letter-spacing: 1px !important;
-    }
-    
+  }
+  .peq {
+    letter-spacing: 1px !important;
+  }
 }
 .clabel {
-    overflow: hidden;
-    cursor: pointer;
+  overflow: hidden;
+  cursor: pointer;
 }
 .adjust1 {
-    object-position: -150px !important;
+  object-position: -150px !important;
 }
 .adjust2 {
-    object-position: -220px !important;
+  object-position: -220px !important;
 }
 .adjust3 {
-    object-position: -180px !important;
+  object-position: -180px !important;
 }
 .adjust4 {
-    object-position: -190px;
+  object-position: -190px;
 }
 .adjust5 {
-    object-position: -186px;
+  object-position: -186px;
 }
 .adjust6 {
-    object-position: -210px;
+  object-position: -210px;
 }
-@keyframes op{ 
-    from {
-        opacity: 100;
-        visibility: visible;
-    }
-    to {
-        opacity: 0;
-    }
-
+@keyframes op {
+  from {
+    opacity: 100;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+  }
 }
 .aei {
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    opacity: 0;
-    animation-name: op;
-    animation-duration: 1s;
-    visibility: collapse;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0;
+  animation-name: op;
+  animation-duration: 1s;
+  visibility: collapse;
 }
 .clabel {
-    text-align: center;
-    margin: 7px;
-    max-width: 152px;
-    max-height: 380px;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 52px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 30px;
+  text-align: center;
+  margin: 7px;
+  max-width: 152px;
+  max-height: 380px;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 52px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
 }
 .vote-area {
-    margin: auto;
-    margin-top: 20px;
-    max-width: 820px;
-    text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 820px;
+  text-align: center;
 }
 
 .divb {
-    overflow: hidden;
+  overflow: hidden;
 }
 .partido {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 .candidatos {
-    margin-top: 60px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    ;margin-bottom: 0;
-    padding: 5px
-    ;transition-duration: 0.4s;
-    border: 2px solid white;
-    width: 210px;
-    margin: auto;
-    margin-top: 30px;
+  margin-top: 60px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0;
+  padding: 5px;
+  transition-duration: 0.4s;
+  border: 2px solid white;
+  width: 210px;
+  margin: auto;
+  margin-top: 30px;
 }
 .candidatos:hover {
-    color: black;
-    letter-spacing: 5px;
-    width: 320px;
-    border: 2px solid yellow
+  color: black;
+  letter-spacing: 5px;
+  width: 320px;
+  border: 2px solid yellow;
 }
 #blank {
-    visibility: hidden;
-    position: absolute;
+  visibility: hidden;
+  position: absolute;
 }
 .blank {
-    border: 2px solid rgb(160, 160, 160);
-    max-width: 100% !important;
-    text-align: center;
-    width: 390px;
-    height: 100px;
-    transition-duration: 0.3s;
-    position: relative;
-    display: inline-block;
-    cursor: pointer !important;
+  border: 2px solid rgb(160, 160, 160);
+  max-width: 100% !important;
+  text-align: center;
+  width: 390px;
+  height: 100px;
+  transition-duration: 0.3s;
+  position: relative;
+  display: inline-block;
+  cursor: pointer !important;
 }
 .blank-container {
-    width: 850px;
-    margin: auto;
-    display: flex;
-    margin-bottom: 30px;
+  width: 850px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;
 }
 .blank-label {
-    width: 50%;
-    margin: 10px;
-    text-align: center;
-    p {
-        font-family: sans-serif;
-        font-size: 16px;
-    }
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  p {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
 }
 .pp {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 #other {
-    visibility: hidden
-    ;position: absolute;
+  visibility: hidden;
+  position: absolute;
 }
 .expandable {
-    visibility: collapse;
-    position: absolute;
+  visibility: collapse;
+  position: absolute;
 }
 .option- {
-    width: 100%;
-    align-content: center;
-    font-family: 'Secular one' !important;
-    font-size: 56px !important;
-    transform: translate(-50%, -50%)
+  width: 100%;
+  align-content: center;
+  font-family: "Secular one" !important;
+  font-size: 56px !important;
+  transform: translate(-50%, -50%);
 }
 .blank-input:checked + label {
-    transition: 0.3s;
-    transform: scale(1.15);
-    .blank {
-        border-color: black;
-        cursor: default !important;
-    }
-    .expandable {
-        visibility: visible;
-        position: absolute;
-        margin: auto;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        input::placeholder {
-            text-align: center;
-        }
-        input {
-            text-align: center;
-        }
-    }
-    .coll {
-        visibility: collapse;
-        position: absolute;
-    }
-    .blankmg {
-        opacity: 100;
-    }
-    .pp {
-        letter-spacing: 5px;
-    }
-}
-.blank:hover{
-    .blankmg {
-        opacity: 100;
-    }
-}
-.blankmg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: 1s;
-}
-.-ae {
+  transition: 0.3s;
+  transform: scale(1.15);
+  .blank {
+    border-color: black;
+    cursor: default !important;
+  }
+  .expandable {
+    visibility: visible;
     position: absolute;
     margin: auto;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    input::placeholder {
+      text-align: center;
+    }
+    input {
+      text-align: center;
+    }
+  }
+  .coll {
+    visibility: collapse;
+    position: absolute;
+  }
+  .blankmg {
+    opacity: 100;
+  }
+  .pp {
+    letter-spacing: 5px;
+  }
+}
+.blank:hover {
+  .blankmg {
+    opacity: 100;
+  }
+}
+.blankmg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: 1s;
+}
+.-ae {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
 }
 .checkboxes {
-
-    margin-left: 60px;
-    margin-top: 30px;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 .textarea {
-    margin-left: 90px;
-    margin-top: 10px;
-    p {
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }    
+  margin-left: 90px;
+  margin-top: 10px;
+  p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
 }
 textarea {
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 900px;
-    resize: none;
-    border-color: blue;
-    margin-bottom: 30px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 900px;
+  resize: none;
+  border-color: blue;
+  margin-bottom: 30px;
 }
 $b: blue;
 #submit {
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,0);
-    font-family: 'secular one', sans-serif;
-    font-size: 32px;
-    color: $b;
-    border: 6px solid $b;
-    background-color: inherit;
-    box-shadow: inset 0px 0px 0px 0px white;
-    transition: ease-out 0.3s;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "secular one", sans-serif;
+  font-size: 32px;
+  color: $b;
+  border: 6px solid $b;
+  background-color: inherit;
+  box-shadow: inset 0px 0px 0px 0px white;
+  transition: ease-out 0.3s;
 }
 #submit:hover {
-    color: white;
-    box-shadow: inset 0px -120px 0px 0px $b;
+  color: white;
+  box-shadow: inset 0px -120px 0px 0px $b;
 }
 select {
-    cursor: pointer;
+  cursor: pointer;
 }
-h1,h2,h4,h5 {
-    cursor: default;
+h1,
+h2,
+h4,
+h5 {
+  cursor: default;
 }
 .button-space {
-    margin-top: 90px;
+  margin-top: 90px;
 }
-footer{
-    background-color: black;
-    position: absolute;
-    width: 100%;
+footer {
+  background-color: black;
+  position: absolute;
+  width: 100%;
 }
 .white-bar {
-    height: 60px;
-    width: 100%;
+  height: 60px;
+  width: 100%;
 }
 body {
-    background-color: black;
+  background-color: black;
 }
-$nota: 'Como se puede denotar al final de la página, esto es parte de un proyecto para FreeCodeCamp para el curriculo de Responsive Web Design. Se puede ver fácilmente que la pagina entera es falsa y solo es un ejemplo usando de tema las elecciones en Colombia 2022, y no quisiera que se tomara enserio, pero ya como opinión personal para aclarar, considero que en Colombia no hay ninguna buena opción de candidato, la opción menos considerable sería PETRO, y diría tambien lo que es el centro democratico pero es bastante dudable que tengan alguna posibilidad de ganar, de resto todos me parecen tan neutrales, tendiendo a izquierda la mayoria, en Colombia no existe derecha ayud.';
+$nota: "Como se puede denotar al final de la página, esto es parte de un proyecto para FreeCodeCamp para el curriculo de Responsive Web Design. Se puede denotar que la pagina entera es falsa y solo es un proyecto de practica usando de tema las elecciones en Colombia 2022.";
 .info {
-    position: fixed;
-    z-index: 30;
-    top: 0%;
-    right: 0%;
-    height: 60px;
-    width: 150px;
-    margin-right: 70px;
-    text-align: center;
-    p {
-        font-family: 'secular one', sans-serif;
-        font-size: 28px;
-        padding-right: 30px;
-        padding-left: 30px;
-        color: black;
-        border: 2px solid black;
-        position: absolute;
-        border-radius: 40px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%)
-        ;transition: 0.4s;
-    }
-    p:hover {
-        letter-spacing: 2px;
+  position: fixed;
+  z-index: 30;
+  top: 0%;
+  right: 0%;
+  height: 60px;
+  width: 150px;
+  margin-right: 70px;
+  text-align: center;
+  p {
+    font-family: "secular one", sans-serif;
+    font-size: 28px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: black;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+  }
+  p:hover {
+    letter-spacing: 2px;
+  }
+  p:hover::after {
+    content: "RMACIÓN";
+  }
 
-    }
-    p:hover::after {
-        content: 'RMACIÓN';
-    }
-
-    .infoa:hover::after {
-        content: $nota;
-        position: absolute;
-        bottom: -320px;
-        right: -60px;
-        width: 500px;
-        background-color: white;
-        border-radius: 40px;
-        text-align: justify;
-        padding: 10px;
-        box-shadow: 5px 5px 30px 0px rgb(143, 143, 143);
-    }
+  .infoa:hover::after {
+    content: $nota;
+    position: absolute;
+    top:90px;
+    right: -60px;
+    width: 500px;
+    background-color: white;
+    border-radius: 40px;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 5px 5px 30px 0px rgb(143, 143, 143);
+  }
 }
 
 footer {
-    h1 {
-        color: white;
-    }
-    a {
+  h1 {
+    color: white;
+  }
+  .fccprjct {
+    float: left;
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+  .nt {
+    float: right;
+    max-width: 1250px;
+    .hec {
+      border: 2px solid white;
+      border-radius: 40px;
+      color: white;
+      padding: 10px;
+      width: 500px;
+      margin-right: 30px;
+      text-align: center;
+      box-shadow: inset 0;
+      transition: 0.3s;
+      background-color: black;
 
+      p {
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 24px;
+        color: black;
+      }
     }
-    .fccprjct {
-        float: left;
-        margin-left: 45px;
-        margin-bottom: 30px;
-    }
-    .nt {
-        float: right;
-        max-width: 1250px;
-        .hec {
-            border: 2px solid white;
-            border-radius: 40px;
-            color: white;
-            padding: 10px;
-            width: 500px;
-            margin-right: 30px;
-            text-align: center;
-            box-shadow: inset 0;
-            transition: 0.3s;
-            background-color: black;
-
-            p {
-                padding-bottom: 0;
-                margin-bottom: 0;
-            }
-            h3 {
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-size: 24px;
-                color: black;
-            }
-        }
-        
-    }
+  }
 }
-            .hec:hover {
-                letter-spacing: 1px;
-                background-color: white !important;
-                color: black !important;
-            }
+.hec:hover {
+  letter-spacing: 1px;
+  background-color: white !important;
+  color: black !important;
+}
